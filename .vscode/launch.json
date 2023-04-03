@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open test.html",
-            "file": "d:\\h\\WEB_VSC_K.M\\test.html"
+            "file": "d:\\h\\WEB_VSC-K.M\\test.html"
         }
     ]
 }
