@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageMap</title>
+    <!--imageMap한개의 이미지 파일에 여러개의 링크를 할당하는 기술,
+    단순히 그림을 연결 시키는 것이 아닌 하나의 그림의 각각 다른 링크로 연결되어있는 형태
+      -- 링크와 연결된 이미지 영역 : 핫스팟(hotspot)
+      -- 정의하고자 하는 영역 모양에 따라 사각형, 원, 다각형 으로 설정가능
+    -->
+</head>
+<body>
+<h2>이미지맵 태그 활용</h2>
+<p><img src="https://www.handong.edu/site/handong/res/img/sub_410-02.png" usemap="#ImageMap1"></p>
+
+<map name="ImageMap1">
+<area shape="circle" coords="120,250,80" href="http://www.handong.edu">
+<area shape="poly" coords="400,140,450,180,400,220,360,220,320,180,360,140" 
+  href="http://hisnet.handong.edu">
+<area shape="rect" coords="600,450,200,250" href="http://i7.handong.edu">
+</map>
+ 
+</body>
+</html>
