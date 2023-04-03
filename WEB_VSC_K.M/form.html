@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>form 태그 연습</h2>
+    <!-- form태그로 페이지 이동 --> 
+    <form action="iframe.html">
+    님 이름이 무엇입니까??
+    <input name="firstname" type="text">
+    <br/><br/>
+    <input type="submit" value="전송">
+</form>
+<br/><br/>
+<form> <!-- button type -->
+    당신이 좋아하는 과일은 무엇인가요?<br/>
+    <input name="peach" type="button">복숭아<br/>
+    <input name="apple" type="button">사과<br/>
+    <br/><br/>
+    <input type="submit" value="전송">
+</form>
+<br/><br/>
+<form> <!-- checkbox type -->
+    당신이 좋아하는 과일은 무엇인가요?<br/>
+    <input name="peach" type="checkbox">복숭아<br/>
+    <input name="apple" type="checkbox">사과<br/>
+    <br/><br/>
+    <input type="submit" value="전송">
+</form>
+<br/><br/>
+<form> <!-- radio type -->
+    당신이 좋아하는 과일은 무엇인가요?<br/>
+    <input name="peach" type="radio">복숭아<br/>
+    <input name="apple" type="radio">사과<br/>
+    <br/><br/>
+    <input type="submit" value="전송">
+</form>
+<br/><br/>
+<form> <!-- password type -->
+    ID와 PW를 입력하세요<br/>
+    id : <input name="id" type="text"><br/>
+    PW : <input name="pw" type="password"><br/>
+    <br/><br/>
+    <input type="submit" value="전송">
+</form>
+<br/><br/>
+<form> <!--select tag-->
+    <select name="fruits">
+        <option value="peach">복숭아</option>
+        <option value="apple">사과</option>
+        <option value="banana">바나나</option>
+        <option value="lemon">레몬</option>
+    </select>
+    <input type="submit">
+</form>
+<br/><br/>
+<form> <!--textarea tag-->
+메시지를 남기세요<br>
+<textarea name="message" rows="10" cols="50">
+please leave a message.
+</textarea><br/>
+<input type="submit">
+</form>
+<br/><br/>
+<!--button tag-->
+<button type="button" onclick="alert('클릭 성공!')">클릭해봐요!!</button>
+<br/><br/>
+<!--HTML5 신기능들 
+    (이전엔 자바스크립트로 복잡하게 구현해야했지만,
+     지금은 쉽게 html5코드로 구현 가능한 태그들)
+<input type="color">,
+<input type="date">
+-->
+form 태그 연습!
+<input type="color"><br/>
+색깔을 선택하세요<br/><br/>
+<input type="date"><br/>
+날짜를 선택하세요<br/><br/>
+<input type="file"><br/>
+파일을 선택하세요<br/><br/>
+<input type="number" min="1" max="5"><br/>
+숫자를 선택하세요<br/><br/>
+<input type="submit"><br/>
+</body>
+</html>
